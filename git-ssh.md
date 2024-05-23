@@ -1,4 +1,5 @@
-# GENERATE KEY
+# git-ssh.md
+## GENERATE KEY
 ```bash
 ssh-keygen
 	# alway press enter
@@ -6,11 +7,11 @@ cat ~/.ssh/id_rsa.pub
 	# copy all output
 ```
 
-# KEY TO GITHUB
+## KEY TO GITHUB
 **go to https://github.com/settings/ssh/new** \
 **add title and past the output**
 
-# ADD FILE TO REPO
+## ADD FILE TO REPO
 ```
 git clone git@github.com:henintsoa98/resume.git
 cd resume
@@ -20,7 +21,7 @@ git add .
 git commit -m "MESSAGE"
 git push
 ```
-# LARGE FILE
+## LARGE FILE
 **using git large file**
 ```bash
 # i was on server so I use this
