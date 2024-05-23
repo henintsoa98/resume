@@ -1,4 +1,5 @@
-# Add community repo
+# alpine-community.md
+## Add community repo
 ```bash
 cat > /etc/apk/repositories << EOF; $(echo)
 https://dl-cdn.alpinelinux.org/alpine/v$(cut -d'.' -f1,2 /etc/alpine-release)/main/
