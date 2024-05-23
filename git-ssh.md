@@ -6,11 +6,9 @@ ssh-keygen
 cat ~/.ssh/id_rsa.pub
 	# copy all output
 ```
-
 ## KEY TO GITHUB
 **go to https://github.com/settings/ssh/new** \
 **add title and past the output**
-
 ## ADD FILE TO REPO
 ```
 git clone git@github.com:henintsoa98/resume.git
