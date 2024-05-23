@@ -8,7 +8,7 @@ sudo cp yt-dlp_linux /usr/local/bin/yt-dlp
 ```
 ### linux arm64
 ```bash
-wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux
+wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux_aarch64 
 chmod +x yt-dlp_linux
 sudo cp yt-dlp_linux /usr/local/bin/yt-dlp
 ```
