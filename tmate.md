@@ -1,4 +1,5 @@
-# Share terminal into ssh headless
+# tmate.md
+## Share terminal into ssh headless
 ```bash
 tmate -S /tmp/tmate.sock new-session -d
 tmate -S /tmp/tmate.sock wait tmate-ready
