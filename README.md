@@ -124,6 +124,7 @@ tmate -S /tmp/tmate.sock display -p "#{tmate_ssh}"
 wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux
 chmod +x yt-dlp_linux
 sudo cp yt-dlp_linux /usr/local/bin/yt-dlp
+alias yt-dlpp="yt-dlp -o './%(playlist)s/%(playlist_index)02d - %(title)s.%(ext)s'"
 ```
 ### linux arm64
 ```bash
