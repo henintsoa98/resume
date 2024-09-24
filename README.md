@@ -155,6 +155,7 @@ See official site of docker
 docker pull grc.io/google.com/cloudsdktool/gcloud-cloud-cli
 ```
 
+# pass-git-eof.md
 ## create a workspace
 Use the directory as your choice (here ~/DOCKER)
 ```bash
